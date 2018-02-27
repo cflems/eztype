@@ -1,5 +1,6 @@
 {
   "name": "eztype-client",
+  "productName": "EZType",
   "version": "1.0.0",
   "description": "Draw digits on screen and watch them be recognized in real time.",
   "main": "main.js",
