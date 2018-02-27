@@ -1,7 +1,7 @@
 {
   "name": "eztype-client",
   "version": "1.0.0",
-  "description": "Draw digits on screen and watch them be recognized instantly.",
+  "description": "Draw digits on screen and watch them be recognized in real time.",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
