@@ -2,7 +2,7 @@ const $ = require('jquery');
 const net = require('net');
 const CURSOR_SIZE = 1;
 
-const BRAIN_SERVER = 'localhost';
+const BRAIN_SERVER = '10.2.22.38';
 const BRAIN_PORT = 2236;
 
 let ctx;
@@ -67,6 +67,7 @@ function properscaleimage (imgdat) {
 function socksend (coords, imgdat) {
   let sock = net.createConnection(BRAIN_PORT, BRAIN_SERVER, () => {
     console.log('ayy');
+    console.log(imgdat.length);
     sock.write(JSON.stringify(imgdat));
   }).setEncoding('utf-8').on('data', (data) => {
     ctx.beginPath();

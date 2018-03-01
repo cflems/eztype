@@ -16,7 +16,7 @@ function createWindow () {
   }));
 
   // Open the chrome web console
-  // mainWindow.webContents.openDevTools()
+  // mainWindow.webContents.openDevTools();
 
   mainWindow.on('closed', function () {
     mainWindow = null;
