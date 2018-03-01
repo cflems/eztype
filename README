@@ -1,0 +1,13 @@
+### EZType ###
+Requirements:
+- jquery
+- electron
+
+Installing them:
+  # (be in the eztype directory)
+  sudo npm install -g electron
+  npm install jquery
+
+Running:
+  # Make sure you have the prereqs installed
+  npm start
